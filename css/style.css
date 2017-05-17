@@ -1,0 +1,80 @@
+body {
+  margin-top: 350px;
+  background-color: #222;
+  background-image: url('https://source.unsplash.com/category/nature/1280x800');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #ddd;
+  font-size: 16px;
+  height: 100vh;
+  min-width: 295px;
+  padding-top: 20vh;
+  transition: background linear 1.5s;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  color: black;
+  font-size: 75px;
+  font-family: 'Lobster', cursive;
+}
+
+.btn {
+  border-color: black;
+  color: white;
+  margin-top: 1em;
+  background-color: black;
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
+}
+
+.btn:hover {
+  border-color: black;
+  background-color: white;
+  color: black;
+}
+
+.btn:active {
+  border-color: black;
+  color: white;
+  margin-top: 1em;
+  background-color: black;
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
+}
+
+.navbar-brand {
+  float: none;
+  font-size: 2em;
+  white-space: nowrap;
+}
+#quote {
+  padding: 1.7em;
+  vertical-align: middle;
+}
+
+@media (max-width: 400px) {
+  #quote {
+    height: 19em;
+  }
+}
+
+#quote p {
+  color: black;
+  font-size: 1.3em;
+  margin-bottom: .8em;
+}
+
+#quote span {
+  color: black;
+  font-size: 1.1em;
+}
+
+.fa-pulse {
+  margin-top: 2em;
+}
+
+.fa-twitter {
+  color: #00ccea;
+}
