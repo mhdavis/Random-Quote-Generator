@@ -1,5 +1,4 @@
 body {
-  margin-top: 350px;
   background-color: #222;
   background-image: url('https://source.unsplash.com/category/nature/1280x800');
   background-repeat: no-repeat;
@@ -20,7 +19,7 @@ h1 {
   font-family: 'Lobster', cursive;
 }
 
-.btn {
+.custom-btn {
   border-color: black;
   color: white;
   margin-top: 1em;
@@ -29,13 +28,13 @@ h1 {
   font-size: 25px;
 }
 
-.btn:hover {
+.custom-btn:hover {
   border-color: black;
   background-color: white;
   color: black;
 }
 
-.btn:active {
+.custom-btn:active {
   border-color: black;
   color: white;
   margin-top: 1em;
